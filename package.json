@@ -1,0 +1,60 @@
+{
+  "name": "@york.ie.parth.t/ui-components",
+  "version": "0.1.0",
+  "description": "React UI Components Library",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./styles": "./dist/index.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Parth T",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthbt-yorkie/york.ie.parth.t-ui-components.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "typescript",
+    "string",
+    "case",
+    "conversion",
+    "utils"
+  ],
+  "bugs": {
+    "url": "https://github.com/parthbt-yorkie/york.ie.parth.t-ui-components/issues"
+  },
+  "homepage": "https://github.com/parthbt-yorkie/york.ie.parth.t-ui-components#readme"
+}
