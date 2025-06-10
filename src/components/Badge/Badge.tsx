@@ -1,7 +1,16 @@
 import React from "react";
 
-export const Badge: React.FC<{ children: React.ReactNode }> = ({
-  children,
-}) => {
-  return <div>{children}</div>;
+export const Badge: React.FC<{
+  children: React.ReactNode;
+  style?: React.CSSProperties;
+}> = ({ children, style }) => {
+  return (
+    <div
+      style={{
+        ...style,
+      }}
+    >
+      {children}
+    </div>
+  );
 };
