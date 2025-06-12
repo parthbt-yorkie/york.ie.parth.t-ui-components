@@ -34,7 +34,8 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "tsup": "^8.5.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
   },
   "publishConfig": {
     "access": "public"
